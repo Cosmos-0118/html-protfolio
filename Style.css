@@ -1,0 +1,111 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 4rem;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #2563eb;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Project Links */
+h3 a {
+    color: #1e40af;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #f1f5f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 a:hover {
+    color: white;
+    background-color: #1d4ed8;
+    border-bottom-color: transparent;
+    transform: scale(1.05);
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #4f46e5, #1e3a8a);
+    margin: 50px 0;
+    border-radius: 10px;
+}
+
+/* Navigation Styles */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a:hover {
+    background-color: #2563eb;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styles */
+img {
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    display: block;
+    max-width: 80%;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Body Hover Effect */
+body:hover {
+    background-color: #e0e7ff;
+}
